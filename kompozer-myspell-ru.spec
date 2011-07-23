@@ -1,11 +1,7 @@
-%define _enable_debug_packages %{nil}
-%define debug_package          %{nil}
-%define distsuffix edm
-
 %define version 0.8
 %define pre b3
 %if %pre
-%define release %mkrel -c %pre 6
+%define release %mkrel -c %pre 7
 %else
 %define release %mkrel 2
 %endif
