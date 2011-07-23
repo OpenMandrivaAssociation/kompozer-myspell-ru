@@ -59,7 +59,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(0644,root,root,0755)
-%dir %{_libdir}/kompozer
+%dir /usr/lib/kompozer
 %{_mozillaextpath}
 
 
