@@ -6,7 +6,7 @@
 %define release %mkrel 2
 %endif
 
-%define _mozillaextpath %{_lib}/kompozer/extensions
+%define _mozillaextpath %{_libdir}/kompozer/extensions
 
 Summary: Russian dictionary for Kompozer
 Summary(ru): Русский словарь идля Kompozer
