@@ -1,12 +1,12 @@
 %define version 0.8
 %define pre b3
 %if %pre
-%define release %mkrel -c %pre 7
+%define release %mkrel -c %pre 8
 %else
 %define release %mkrel 2
 %endif
 
-%define _mozillaextpath /usr/lib/kompozer/extensions
+%define _mozillaextpath %{_lib}/kompozer/extensions
 
 Summary: Russian dictionary for Kompozer
 Summary(ru): Русский словарь идля Kompozer
@@ -55,7 +55,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(0644,root,root,0755)
-%dir /usr/lib/kompozer
 %{_mozillaextpath}
-
 
