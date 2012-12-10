@@ -57,3 +57,18 @@ rm -rf %{buildroot}
 %defattr(0644,root,root,0755)
 %{_mozillaextpath}
 
+
+
+%changelog
+* Thu Jan 26 2012 Александр Казанцев <kazancas@mandriva.org> 0.8-0.b3.8mdv2012.0
++ Revision: 769015
+- install extentions with %%libdir path
+
+* Sat Jul 23 2011 Александр Казанцев <kazancas@mandriva.org> 0.8-0.b3.7
++ Revision: 691334
+- fix spec
+- imported package kompozer-myspell-ru
+
+
+* Mon Sep 6 2010 Alexander Kazancev <kazancas@mandriva.ru>
++ initial release
