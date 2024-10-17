@@ -15,7 +15,7 @@ Version:        %{version}
 Release:        %{release}
 License: GPLv2+
 Group: Networking/WWW
-URL: http://kompozer.net/download.php
+URL: https://kompozer.net/download.php
 Source: http://kompozer.sourceforge.net/l10n/myspell/myspell-dict.ru.xpi
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 Requires: kompozer
